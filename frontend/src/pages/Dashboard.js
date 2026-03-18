@@ -11,7 +11,8 @@ import {
 } from "recharts";
 import { motion } from "framer-motion";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://trade-opportunities-api-3p5l.onrender.com";
+
 const TOKEN = "mysecrettoken";
 
 export default function Dashboard() {
