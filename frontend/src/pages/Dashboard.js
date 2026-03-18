@@ -95,12 +95,11 @@ export default function Dashboard() {
       {/* SEARCH */}
       <div className="flex gap-3 mb-6">
         <input
-          value={sector}
-          onChange={(e) => setSector(e.target.value)}
-          placeholder="Enter sector (AI, Fintech...)"
-          className="flex-1 p-3 border rounded"
-        />
-
+  value={sector}
+  onChange={(e) => setSector(e.target.value)}
+  placeholder="Enter sector (AI, Pharma...)"
+  className="flex-1 p-3 rounded-lg bg-black/40 text-white border border-gray-600 placeholder-gray-400 focus:border-blue-500 outline-none"
+/>
         <button
           onClick={analyze}
           className="bg-blue-600 text-white px-6 rounded"
