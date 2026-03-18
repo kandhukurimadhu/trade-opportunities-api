@@ -6,8 +6,10 @@ AI-powered full-stack application that analyzes market sectors in India and gene
 
 ## 🌐 Live Demo
 
-🚧 Coming soon (deployment in progress)
+https://trade-opportunities-api-3p5l.onrender.com
 
+## 📄 Swagger Docs
+https://trade-opportunities-api-3p5l.onrender.com/docs
 ---
 
 ## ✨ Features
